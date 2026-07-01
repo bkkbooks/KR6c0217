@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6c0217/v1
+canonical_location: https://kanripo.org/bkk/KR6c0217/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 仁王經疏
+  identifiers:
+    alt_id:
+    - T85n2745
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2745.xml
+    old_id: T85n2745
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0217_000.yaml, hash: 'sha256:130364b64c0a1a7f222195f8560b08d269c3d66c54c197b59929ce0e19de80cf'}
+  - {seq: 1, filename: KR6c0217_001.yaml, hash: 'sha256:d0f43a34953444ddeb9634db20e206696e2173b3dfd5c06398a641b8d7afd194'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0217_001.markers.yaml, hash: 'sha256:e8790a74bf4093fe3bfcf1e147bf1696327221c385430a7bcf3b4928da40b93d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0217_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1924
+  label: 仁王經疏
+  type: juan
+  level: 1
+hash: sha256:51fc7e9159d8e3c24b4e9064a07c7ca992f9787cc35c20ce5c83290ded895bfe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
